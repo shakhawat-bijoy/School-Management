@@ -6,8 +6,9 @@ import Container from './layer/Container';
 
 const Registration = () => {
   return (
+    <div className='bg-[rgb(200,210,255)]'>
     <Container>
-    <div className="flex items-center justify-between h-screen">
+    <div className="flex items-center justify-between h-screen ">
       {/* Left Section: Image */}
       <div className="h-full mt-96">
         <Image
@@ -173,6 +174,7 @@ const Registration = () => {
         </div>
     </div>
     </Container>
+    </div>
   );
 };
 
